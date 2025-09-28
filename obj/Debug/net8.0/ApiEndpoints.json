@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "CheckTask",
+    "RelativePath": "to-do-list/check/task/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "UncheckTask",
+    "RelativePath": "to-do-list/check/task/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "CreateTask",
+    "RelativePath": "to-do-list/task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "ToDoList_API.Models.TaskCreateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "DeleteTask",
+    "RelativePath": "to-do-list/task/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "EditTask",
+    "RelativePath": "to-do-list/task/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "task",
+        "Type": "ToDoList_API.Models.TaskEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "GetTasks",
+    "RelativePath": "to-do-list/tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDoList_API.Controllers.TasksController",
+    "Method": "UploadTasks",
+    "RelativePath": "to-do-list/tasks/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasks",
+        "Type": "System.Collections.Generic.List\u00601[[ToDoList_API.Models.TaskModel, ToDoList-API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
